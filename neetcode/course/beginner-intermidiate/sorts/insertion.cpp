@@ -11,6 +11,7 @@ public:
     // make sure you don't go out of bound at the first elem
     // best = O(n)
     // worst = O(n^2)
+    // This is a stable sorting algo
     void insertionSort(vector<int>& arr){
         for(int i = 0; i < arr.size() - 1; i ++){
             int j = i + 1;
