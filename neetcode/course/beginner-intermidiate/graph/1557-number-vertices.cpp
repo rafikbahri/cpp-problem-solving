@@ -17,7 +17,6 @@ public:
     }
 };
 
-
 int main(){
     vector<vector<int>> test = {{0,1},{0,2},{2,5},{3,4},{4,2}};
     Solution* obj = new Solution();
